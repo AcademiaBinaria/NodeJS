@@ -1,0 +1,14 @@
+{
+  "name": "modulos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "promesas.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alberto basalo",
+  "license": "ISC",
+  "dependencies": {
+    "q": "^1.2.0"
+  }
+}
