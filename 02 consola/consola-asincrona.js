@@ -1,3 +1,4 @@
+
 // Versión básica de interacción con la consola
 "use strict";
 var stdin = process.openStdin();

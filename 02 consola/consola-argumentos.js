@@ -1,3 +1,4 @@
+
 "use strict";
 // array de argumentos process.argv[]
 var nodePath = process.argv[0];
