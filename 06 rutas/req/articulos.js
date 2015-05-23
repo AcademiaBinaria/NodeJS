@@ -44,7 +44,10 @@ var Articulos = (function(){
 		};
 		return articulos.filter(funcionFiltro)[0];
 	}
+	
+	
 
+	
 })();
 
 module.exports = Articulos;

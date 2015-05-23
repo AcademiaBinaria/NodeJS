@@ -1,3 +1,4 @@
+
 var http = require('http');
 var llamada = {
 	host: 'agorabinaria.com'
@@ -42,3 +43,9 @@ function trabajoLentoMejorado() {
 	http.get(llamada, alRecibirDatos)
 		.on('error', alRecibirError);
 }
+
+
+
+
+
+

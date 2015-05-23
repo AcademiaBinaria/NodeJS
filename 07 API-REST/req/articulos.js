@@ -43,8 +43,7 @@ var Articulos = (function(){
 			return articulo.url.indexOf(url) >= 0;
 		};
 		return articulos.filter(funcionFiltro)[0];
-	}
-
+	}	
 })();
 
 module.exports = Articulos;

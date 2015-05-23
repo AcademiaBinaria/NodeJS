@@ -135,3 +135,14 @@ function buscarArticulo(uri) {
 	};
 	return articulos.filter(funcionFiltro)[0];
 }
+
+
+
+
+
+
+
+
+
+
+

@@ -15,7 +15,7 @@ var CumplidorTotal = (function () {
 			}).on('error', function (e) {
 				deferred.reject(e);
 			});
-			// esta es la línea mágica que aprovecha el callbac si existe
+			// esta es la línea mágica que aprovecha el callback si existe
 			deferred.promise.nodeify(callback);
 			return deferred.promise;
 		}

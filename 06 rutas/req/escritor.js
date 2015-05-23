@@ -35,6 +35,8 @@ var Escritor = (function () {
 			res.end();
 		}
 	}
+
+
 })();
 
 module.exports = Escritor;

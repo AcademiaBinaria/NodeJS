@@ -1,15 +1,14 @@
-
 {
-  "name": "modulos",
+  "name": "holaexpress",
   "version": "1.0.0",
   "description": "",
-  "main": "promesas.js",
+  "main": "hola-express.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "alberto basalo",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "q": "^1.2.0"
+    "express": "^4.12.0"
   }
 }
