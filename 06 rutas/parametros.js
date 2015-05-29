@@ -21,6 +21,11 @@ app.get('/saludame/:tunombre', function (peticion, respuesta) {
 	respuesta.send('Hola ' + peticion.params.tunombre);
 });
 
+
+app.use('/mates',function(req,res,next){
+    dgfhndñkjh
+});
+
 app.get('/mates/:operacion/:numero1/:numero2([0-9])', function (peticion, respuesta) {
 	var operacion = peticion.params.operacion;
 	var numero1 = peticion.params.numero1;

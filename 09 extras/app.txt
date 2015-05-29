@@ -1,0 +1,4 @@
+127.0.0.1 - - [13/Mar/2015:14:59:10 +0000] "GET /cuentas HTTP/1.1" 200 186 "http://localhost:3000/cuentas/nueva" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+127.0.0.1 - - [13/Mar/2015:14:59:12 +0000] "GET /cuentas/nueva HTTP/1.1" 304 - "http://localhost:3000/cuentas" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+127.0.0.1 - - [13/Mar/2015:14:59:14 +0000] "POST /api/cuentas HTTP/1.1" 302 72 "http://localhost:3000/cuentas/nueva" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
+127.0.0.1 - - [13/Mar/2015:14:59:14 +0000] "GET /cuentas HTTP/1.1" 200 210 "http://localhost:3000/cuentas/nueva" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36"
