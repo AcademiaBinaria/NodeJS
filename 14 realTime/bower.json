@@ -1,0 +1,21 @@
+{
+	"name": "14 realTime",
+	"version": "0.0.0",
+	"directory": "static/bower_components",
+	"authors": [
+    "Alberto Basalo <albertobasalo@agorabinaria.com>"
+  ],
+	"license": "MIT",
+	"ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+	"dependencies": {
+		"angular": "1.3.11",
+		"angular-resource": "1.3.11",
+		"bootstrap": "~3.3.2"
+	}
+}

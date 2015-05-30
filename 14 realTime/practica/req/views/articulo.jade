@@ -1,0 +1,15 @@
+extends plantilla
+
+block content
+	h1= articulo.nombre
+	h2 Precio especial: #{articulo.precio} euros !!!
+	if articulo.stock>0
+		h3 Nos quedan #{articulo.stock} en el almacén. ;-)
+	else
+		h3 Fuera de stock, vuelva otro día. :-(
+		form(action='/api/articulos' method='post')
+			Enter Pedir unidades al proveedor
+				div
+					input(type='text', name='url' , value='#{articulo.url}')
+					input(type='number', name='unidades')
+					input(type='submit', value='Pedir unidades')

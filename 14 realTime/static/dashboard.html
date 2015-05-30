@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="no-js" ng-app="cuentas">
+<html lang="es" style="position: relative;min-height: 100%;">
+
+<head>
+	<meta charset="utf-8">
+	<title>Encuestas</title>
+	<meta name="description" content="Cuentas de interes">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+	<article class="container" ng-controller="DashboardCtrl as vm">
+		<div class="">
+			<h1>Estadísticas Inteligentes para Negocios Alucinantes</h1>
+			<p>Datos actualizados a las {{vm.ultimaActualizacion | date:'mediumTime'}}</p>
+		</div>
+
+		<div class="col-md-4">
+			<h2>Saldo Total Cuentas</h2>
+			<h3>{{vm.totalCuentas[0].saldoTotal | number:0}}</h3>
+		</div>
+		<div class="col-md-4">
+			<h2>Total de Movimientos de Dinero</h2>
+			<h3>{{vm.totalDinero[0].totalMovimientos | number:0 }}</h3>
+		</div>
+		<div class="col-md-4">
+			<h2>Numero de movimientos</h2>
+			<h3>{{vm.numeroMovimientos[0].totalMovs | number:0}}</h3>
+		</div>
+
+	</article>
+	<footer>
+		<hr>
+		<p>Código de ejemplo creado por <a href="https://twitter.com/albertobasalo">Alberto Basalo</a> de <a href="http://agorabinaria.com">Ágora Binaria</a>
+		</p>
+		<p>Accede a este y otros contenidos formativos en <a href="https://github.com/orgs/AcademiaBinaria/dashboard">GitHub-AcademiaBinaria</a>
+		</p>
+	</footer>
+</body>
+<script src="/socket.io/socket.io.js"></script>
+
+<script src="/bower_components/angular/angular.min.js"></script>
+<script src="/bower_components/angular-resource/angular-resource.min.js"></script>
+
+<script src="app.js"></script>
+
+</html>
