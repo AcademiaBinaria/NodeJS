@@ -1,0 +1,9 @@
+extends plantilla
+
+block content
+	h1 Lista jardcodeada
+	p Mi lista de productos
+	ul
+		each articulo in articulos
+			li
+				a(href='/articulo/#{articulo.url}') #{articulo.nombre} a #{articulo.precio} euros

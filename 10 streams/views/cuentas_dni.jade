@@ -1,0 +1,7 @@
+extends plantilla
+
+block content
+	h1 Sube el dni digitalizado 
+	form(action='/cuentas/dni', method='POST', enctype='multipart/form-data')
+		input(type='file', name='file')
+		input(type='submit', value='subirlo')

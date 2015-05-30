@@ -1,0 +1,19 @@
+{
+  "name": "vitae",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.12.0",
+    "express": "^4.12.2",
+    "jade": "^1.9.2",
+    "morgan": "^1.5.1",
+    "multer": "^0.1.8",
+    "request": "^2.53.0"
+  }
+}

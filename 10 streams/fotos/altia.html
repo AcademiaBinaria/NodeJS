@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+<title>INICIO - altia</title>
+<meta http-equiv="CONTENT-TYPE" content="text/html; CHARSET=UTF-8" />
+<meta http-equiv="Expires" content="-1" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta name="author" content="Altia Consultores" />
+<meta name="description" content="Consultora en tecnolog&iacute;as de la informaci&oacute;n y comunicaciones: consultor&iacute;a y desarrollo inform&aacute;tico" />
+<meta name="keywords" content="altia, consultor&iacute;a TIC, desarrollo sistemas, formaci&oacute;n tecnol&oacute;gica, seguridad inform&aacute;tica, gesti&oacute;n integral, gesti&oacute;n expedientes, aplicaciones, software, mantenimiento" />
+<link rel="shortcut icon" href="/sgc/sc/galerias/imagenes/generales/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="/sgc/sc/system/modules/es.altia.web/resources/css/altia.css" media="screen, tv, projection, print" title="Estilos por defecto" />
+<!--[if IE 6]><link rel="stylesheet" type="text/css" href="/sgc/sc/system/modules/es.altia.web/resources/css/ie6/altia.css"  media="screen, tv, projection, print" title="Estilos para IE6" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="/sgc/sc/system/modules/es.altia.web/resources/css/ie7/altia.css"  media="screen, tv, projection, print" title="Estilos para IE7" /><![endif]-->
+
+<script type="text/javascript" src="/sgc/sc/system/modules/es.altia.web/resources/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="/sgc/sc/system/modules/es.altia.web/resources/js/jquery.innerfade.js"></script>
+
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+<script type="text/javascript">
+<!--
+function mainmenu(){
+	$("#nav ul.main ul").css({display: "none"}); // Opera Fix
+	$("#nav ul.main li").hover(function(){
+			$(this).find('ul:first').css({visibility: "visible",display: "none"}).show(400);
+			},function(){
+			$(this).find('ul:first').css({visibility: "hidden"});
+			});
+}
+
+$(document).ready(
+	function(){
+		mainmenu();
+		$('.atajo_idioma').hover(
+			function(){$(this).find('ul').css({visibility: "visible",display: "none"}).show(400);},
+			function(){$(this).find('ul').css({visibility: "hidden"});}
+		);
+		$('#flash').innerfade({speed: 2000, timeout: 10000, type: 'sequence', containerheight: '142px'});
+	}
+);
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+
+<body>
+<div id="avisoCookies">
+	<div>
+		<div class="iconoCerrar"></div>
+		<p>Utilizamos cookies propias y de terceros para mejorar su experiencia y nuestros servicios, analizando la navegación en nuestro sitio web. Si continua navegando, consideramos que acepta su uso.</p>
+	</div>
+</div>
+<script type="text/javascript">
+<!--
+function setCookie(c_name,value,exdays) {
+	var exdate=new Date();
+	exdate.setDate(exdate.getDate() + exdays);
+	var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString()) + "; path=/";
+	document.cookie=c_name + "=" + c_value;
+}
+function readCookie(name) {
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++) {
+		var c = ca[i];
+		while (c.charAt(0)==' ') c = c.substring(1,c.length);
+		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+	}
+	return null;
+}
+
+jQuery(document).ready(function () {
+	var avisoCookies = $('#avisoCookies');
+	var botonCerrarAviso = $('#avisoCookies .iconoCerrar');
+	var aceptacookies = readCookie('aceptacookies');
+	if(!(aceptacookies == "si")) {
+		avisoCookies.fadeIn("slow");
+		botonCerrarAviso.click(function(){
+			setCookie("aceptacookies","si",365);
+			avisoCookies.fadeOut("slow");
+		});
+	}
+});
+//-->
+</script>
+
+<div id="supercontenedor"><div id="contenedor">
+<div id="cabecera">  
+<div id="precabecera">
+	<div class="titulo_atajos"><p><strong>CONSULTORÍA&nbsp;</strong>&amp; SERVICIOS&nbsp;<strong>TIC</strong></p></div>
+
+	<div id="menuPrecabecera">
+		<ul class="main">
+			<li class="main atajo_idioma">
+				<script type="text/javascript">
+					function estableceIdioma(id) {
+						document.getElementById("idioma").value = id;
+						document.getElementById("formIdioma").submit();
+						return false;
+					}
+				</script>
+				<form id="formIdioma" action="/sgc/sc/indice.html" method="post">
+					
+					<input type="hidden" id="idioma" name="idioma" value="es" />
+					<a href="#" title=""><img src="/sgc/export/system/modules/es.altia.web/resources/imagenes/iconoIdioma.png" /> IDIOMA</a>
+					<ul class="submain" style="visibility: hidden; display: none;">
+						
+						<li class="submain"><a onclick="return estableceIdioma('en')" class="submain" href="#" title="">ENGLISH</a></li>
+						
+						<li class="submain"><a onclick="return estableceIdioma('fr')" class="submain" href="#" title="">FRANCAIS</a></li>
+					</ul>
+				</form>
+			</li>
+</ul></div>
+</div>
+
+<div id="nav">
+<ul class="main"><li class="main"><a href="/sgc/sc/indice.html" class="main" >INICIO</a></li><li class="main"><a href="/sgc/sc/altia/" class="main" >ALTIA</a><ul class="submain"><li class="submain"><a href="/sgc/sc/altia/equipoHumano.html" class="submain" >EQUIPO HUMANO</a></li><li class="submain"><a href="/sgc/sc/altia/calidad.html" class="submain" >CALIDAD</a></li><li class="submain"><a href="/sgc/sc/altia/dossier/" class="submain" >DOSSIER CORPORATIVO</a></li><li class="submain"><a href="/sgc/sc/altia/videoAltia.html" class="submain" >VIDEO CORPORATIVO</a></li></ul></li><li class="main"><a href="/sgc/sc/servicios/" class="main" >SOLUCIONES Y SERVICIOS</a><ul class="submain"><li class="submain"><a href="/sgc/sc/servicios/servicios/" class="submain" >SERVICIOS</a></li><li class="submain"><a href="/sgc/sc/servicios/productos/" class="submain" >PRODUCTOS</a></li><li class="submain"><a href="/sgc/sc/servicios/gestionados/" class="submain" >SERVICIOS GESTIONADOS</a></li></ul></li><li class="main"><a href="/sgc/sc/referencias/" class="main" >REFERENCIAS</a></li><li class="main"><a href="/sgc/sc/socios/" class="main" >PARTNERS</a></li><li class="main"><a href="/sgc/sc/prensa/" class="main" >SALA DE PRENSA</a><ul class="submain"><li class="submain"><a href="/sgc/sc/prensa/noticias/" class="submain" >NOTICIAS</a></li><li class="submain"><a href="/sgc/sc/prensa/boletines/" class="submain" >BOLET&Iacute;N</a></li><li class="submain"><a href="/sgc/sc/prensa/eventos/" class="submain" >EVENTOS</a></li><li class="submain"><a href="/sgc/sc/prensa/actualidad/" class="submain" >EN LOS MEDIOS</a></li></ul></li><li class="main"><a href="/sgc/sc/rrhh/" class="main" >RECURSOS HUMANOS</a><ul class="submain"><li class="submain"><a href="/sgc/sc/rrhh/ofertas/" class="submain" >OFERTAS DE EMPLEO</a></li><li class="submain"><a href="/sgc/sc/rrhh/cv/" class="submain" >ENV&Iacute;A TU CV</a></li></ul></li><li class="main"><a href="/sgc/sc/contacto/" class="main" >CONTACTO</a></li></ul>
+</div>
+
+<div id="flash"><p><img alt="" src="/sgc/export/sites/default/galerias/imagenes/generales/flash_es.jpg" /></p>
+<p><img alt="" src="/sgc/export/sites/default/galerias/imagenes/generales/flash_original.jpg" /></p>
+<p><img alt="" src="/sgc/export/sites/default/galerias/imagenes/generales/altia-data_es.jpg" /></p></div>
+
+<div id="acceso_intranet">
+
+<form id="formAccesoIntranet" method="post" action="/intranet">
+<div class="titulo_acceso"><p>INTRANET EMPLEADOS</p></div>
+<!--<div class="textfield_usuario"><label for="usuario"></label><input id="usuario" type="text" name="j_username"/></div>-->
+<!--<div class="textfield_contrasena"><label for="contrasena"></label><input id="contrasena" type="password" name="j_password"/></div> -->
+<div class="boton_acceso">
+<p><img alt="" src="/sgc/export/sites/default/galerias/imagenes/generales/btn_acceso_intranet_es.png" /></p>
+<!--input type="image" alt="ACCEDER" src="/sgc/export/system/modules/es.altia.web/resources/imagenes/btn_acceso_intranet.gif" name="btn_acceder"/-->
+</div>
+</form>
+<script type="text/javascript">
+$(function () {
+	$('.boton_acceso').click(function () {
+		$('#formAccesoIntranet').submit();
+	});
+});
+</script>
+
+</div>
+
+<div id="banners">
+	
+	
+        <div class="comunidades">
+		<div class="texto_leyenda"><p>Social media:</p></div>
+		<div class="logos">
+		 <a href="http://www.linkedin.com/company/altia.sa" target="_blank" title="Linkedin Altia"> <img src="/sgc/export/sites/default/galerias/imagenes/generales/banner_in.png" alt="" /></a> 
+		 <a href="http://www.facebook.com/altia.es" target="_blank" title="Facebook Altia"> <img src="/sgc/export/sites/default/galerias/imagenes/generales/banner_fb.png" alt="" /></a> 
+		 <a href="http://twitter.com/altianews" target="_blank" title="Twitter altianews"> <img src="/sgc/export/sites/default/galerias/imagenes/generales/banner_tw.png" alt="" /></a> 
+ 		 <a href="http://www.youtube.com/user/altianews" target="_blank" title="YouTube Altia"> <img src="/sgc/export/sites/default/galerias/imagenes/generales/banner_yt.png" alt="" /></a> 
+ 		 <a href="http://issuu.com/altianews" target="_blank" title="Issuu altianews"> <img src="/sgc/export/sites/default/galerias/imagenes/generales/banner_issuu.png" alt=""/></a> 
+		</div>
+	</div> 
+	
+	
+	<div class="video">
+		<div class="texto_leyenda"><p>Video corporativo:</p></div>
+		<div class="imagen"><a href="/sgc/sc/videoAltia.html" title="Video corporativo Altia"><img src="/sgc/export/sites/default/galerias/imagenes/generales/video.gif" alt=""/></a></div>
+	</div>
+</div>
+
+<div id="zona_accesos"> 
+<div id="inversores"><div class="titulo">INVERSORES<br/>&amp; ACCIONISTAS</div><ul class="menu"><li class=""><a href="/sgc/sc/inversoresAccionistas/cartaDelPresidente.html" >CARTA DEL PRESIDENTE</a></li><li class=""><a href="/sgc/sc/inversoresAccionistas/inversores/" >RELACI&Oacute;N CON INVERSORES</a></li><li class=""><a href="/sgc/sc/inversoresAccionistas/hechosRelevantes/" >HECHOS RELEVANTES</a></li><li class=""><a href="/sgc/sc/inversoresAccionistas/magnitudes/" >PRINCIPALES MAGNITUDES</a></li><li class=""><a href="/sgc/sc/inversoresAccionistas/gobiernoCorporativo/" >GOBIERNO CORPORATIVO</a></li><li class=""><a href="/sgc/sc/inversoresAccionistas/juntaGeneralAccionistas/" >JUNTA GENERAL ACCIONISTAS</a></li><li class=""><a href="/sgc/sc/inversoresAccionistas/otraInformacion/" >OTRA INFORMACI&Oacute;N</a></li></ul></div>
+<div id="responsabilidad"><div class="titulo">RESPONSABILIDAD<br/>SOCIAL</div><ul class="menu"><li class=""><a href="/sgc/sc/responsabilidadSocial/memoriaSostenibilidad.html" >MEMORIA DE SOSTENIBILIDAD</a></li><li class=""><a href="/sgc/sc/responsabilidadSocial/medioAmbiente.html" >MEDIOAMBIENTE</a></li><li class=""><a href="/sgc/sc/responsabilidadSocial/universidades.html" >UNIVERSIDADES</a></li><li class=""><a href="/sgc/sc/responsabilidadSocial/sociedad.html" >SOCIEDAD</a></li></ul></div>
+<div id="boletin"><a href="/sgc/sc/prensa/boletines/"><img onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('banner_boletin','','/sgc/export/sites/default/galerias/imagenes/generales/banner_boletin_on.gif',1)" id="banner_boletin" name="banner_boletin" src="/sgc/export/sites/default/galerias/imagenes/generales/banner_boletin.gif" alt="Bolet&iacute;n"/></a></div>
+</div>
+
+</div>
+<div id="contenidos">
+
+<div id="titulos">
+	<div class="tit">
+		<div class="tit2">ALTIA</div>
+		
+	</div>
+	<div class="frase"><p>Una de las primeras compañías independientes de <br />
+consultoría y prestación de servicios TIC en España.</p></div> 
+</div>
+
+<div class="principal">
+
+<div class="principal">
+	
+	
+
+	<div class="titulo_seccion"><p>ÚLTIMAS NOTICIAS</p></div>
+	<div class="ultimas_noticias">
+	<div class="contenedor_noticias_portada">
+
+<div class="noticia_portada">
+	
+	<div class="titulo_noticia"><a href="/sgc/sc/prensa/noticias/lista/2015/noticia04.html"> ALTIA participa en el XV Foro Tecnológico de la Universidad de Vigo</a></div>
+	<div class="fecha">06/03/2015</div>
+	
+	<div class="texto_noticia">El Foro se celebrará del 2 al 6 de Marzo en la Escola de Enxeñaría de Telecomunicación.
+El objetivo principal es poder acercar el mundo del mercado laboral a los futuros Ingenieros y titulados. Para ello se realizan conferencias y presentaciones en las que las empresas participantes dan a conocer ...</div>	
+</div>
+<div class="noticia_portada">
+	
+	<div class="titulo_noticia"><a href="/sgc/sc/prensa/noticias/lista/2015/noticia03.html">Car Easy Apps, plataforma de software en cuyo  desarrollo participa Altia, se presenta en el Mobile World Congress 2015</a></div>
+	<div class="fecha">02/03/2015</div>
+	
+	<div class="texto_noticia"><span style="font-family:&quot;Trebuchet MS&quot;,&quot;sans-serif&quot;;
+mso-bidi-font-family:Arial;color:#333333">Este lunes, 2 de marzo, da comienzo en Barcelona el Mobile World Congress 2015, uno de los escaparates más relevantes, a nivel internacional, para divulgar las últimas tendencias en ...</div>	
+</div>
+<div class="noticia_portada">
+	
+	<div class="titulo_noticia"><a href="/sgc/sc/prensa/noticias/lista/2015/noticia02.html">Mejora tecnológica y funcional de la Sede Electrónica de la Autoridad Portuaria de Melilla</a></div>
+	<div class="fecha">19/02/2015</div>
+	
+	<div class="texto_noticia">La Autoridad Portuaria de Melilla está acometiendo un proceso de mejora de sus infraestructuras TIC con el objetivo de disponer de un espacio web que permita una mejor comunicación de la organización con los ciudadanos y con las empresas. Esta entidad ha adjudicado el proyecto a Altia. De este ...</div>	
+</div>
+
+
+	</div>
+	</div>
+	<div class="vermas"><a href="/sgc/sc/prensa/noticias/" title="">VER TODAS</a></div>
+
+</div><div id="presentacion">
+	<div class="titulo"><p>PRESENTACIÓN</p></div>
+	<p>Una de las primeras compañías independientes de consultoría y prestación de servicios TIC en España.</p>
+<p>Desde 1994 con proyectos para Administraciones Públicas, Industria y Servicios, Telecomunicaciones y Servicios Financieros.</p>
+<p>En estos momentos tenemos Oficinas en Coruña, Vigo, Vitoria, Santiago, Madrid, Valladolid, Alicante, Toledo.</p>
+<div class="subtitulo_seccion">
+<p>Compromiso con nuestros Clientes e Innovación permanente</p>
+</div>
+<p>La orientación al cliente y el compromiso con su negocio son la razón de ser no sólo del crecimiento sino incluso de la simple existencia de empresas como ALTIA.</p>
+<p>El compromiso con el cliente en un entorno de gran competitividad no puede separarse de la vocación innovadora. El negocio del cliente necesita en todo momento solidez pero también anticipación.</p>
+<p>Los profesionales de Altia saben que la calidad del servicio se basa en la capacidad de entender las necesidades presentes y futuras de los clientes y de satisfacerlas, en una actividad continua que no permite bajar la guardia. Esa actividad explica la trayectoria pasada de Altia; el seguir haciéndolo es la misión que nos planteamos.</p>
+<p>&copy; ALTIA, Reservados todos los derechos</p>
+</div>
+
+
+	<div id="banners_home_referencias">
+	<div class="referencias">
+	<div class="titulo"><p>REFERENCIAS</p></div>
+	<ul class="logotipos">
+
+
+<li>
+	<div class="foto">
+
+	<img src="/sgc/export/sites/default/galerias/imagenes/referencias/aytoVitoriaGasteiz.jpg" alt=""/>
+
+	</div>
+
+    <div class="cuadro">
+		
+		<div class="titular"><a href="/sgc/sc/referencias/">Centro de Tecnologías de la Innovación del Ayuntamiento de Vitoria (CETIC)</a></div>
+	</div>
+</li>
+
+<li>
+	<div class="foto">
+
+	<img src="/sgc/export/sites/default/galerias/imagenes/referencias/UNED.jpg" alt=""/>
+
+	</div>
+
+    <div class="cuadro">
+		
+		<div class="titular"><a href="/sgc/sc/referencias/">Universidad Nacional de Educación a Distancia (UNED)</a></div>
+	</div>
+</li>
+
+<li>
+	<div class="foto">
+
+	<img src="/sgc/export/sites/default/galerias/imagenes/referencias/cis.jpg" alt=""/>
+
+	</div>
+
+    <div class="cuadro">
+		
+		<div class="titular"><a href="/sgc/sc/referencias/">Centro de Innovación e Servicios (CIS)</a></div>
+	</div>
+</li>
+
+<li>
+	<div class="foto">
+
+	<img src="/sgc/export/sites/default/galerias/imagenes/referencias/aytoTorrent.png" alt=""/>
+
+	</div>
+
+    <div class="cuadro">
+		
+		<div class="titular"><a href="/sgc/sc/referencias/">Ayuntamiento de Torrent</a></div>
+	</div>
+</li>
+
+<li>
+	<div class="foto">
+
+	<img src="/sgc/export/sites/default/galerias/imagenes/referencias/aytoBarakaldo.jpg" alt=""/>
+
+	</div>
+
+    <div class="cuadro">
+		
+		<div class="titular"><a href="/sgc/sc/referencias/">Ayuntamiento de Barakaldo</a></div>
+	</div>
+</li>
+
+
+	</ul>
+	<div class="clear_both"></div>
+	<div class="vermas"><a href="/sgc/sc/referencias/" title="">VER TODAS</a></div>
+	</div>
+	</div>
+
+
+	
+
+	<div id="banners_home">
+	<div class="partners">
+	<div class="titulo"><p>PARTNERS</p></div>
+	<ul class="logotipos">
+
+
+<li>
+
+	<div class="foto"><img src="/sgc/export/sites/default/galerias/imagenes/socios/fatwire.gif" alt=""/></div>
+
+    <div class="cuadro">
+		
+		<div class="titular"><a href="/sgc/sc/socios/">Oracle and Fatwire</a></div>
+	</div>
+</li>
+
+<li>
+
+	<div class="foto"><img src="/sgc/export/sites/default/galerias/imagenes/socios/hp.gif" alt=""/></div>
+
+    <div class="cuadro">
+		
+		<div class="titular"><a href="/sgc/sc/socios/">Hewlett-Packard</a></div>
+	</div>
+</li>
+
+<li>
+
+	<div class="foto"><img src="/sgc/export/sites/default/galerias/imagenes/socios/oracleDatabase.gif" alt=""/></div>
+
+    <div class="cuadro">
+		
+		<div class="titular"><a href="/sgc/sc/socios/">Oracle</a></div>
+	</div>
+</li>
+
+<li>
+
+	<div class="foto"><img src="/sgc/export/sites/default/galerias/imagenes/socios/ibm.jpg" alt=""/></div>
+
+    <div class="cuadro">
+		
+		<div class="titular"><a href="/sgc/sc/socios/">IBM</a></div>
+	</div>
+</li>
+
+<li>
+
+	<div class="foto"><img src="/sgc/export/sites/default/galerias/imagenes/socios/veeam_propartner_logo.png" alt=""/></div>
+
+    <div class="cuadro">
+		
+		<div class="titular"><a href="/sgc/sc/socios/">Veeam</a></div>
+	</div>
+</li>
+
+
+	</ul>
+	<div class="clear_both"></div>
+	<div class="vermas"><a href="/sgc/sc/socios/" title="">VER TODOS</a></div>
+	</div>
+	</div>
+</div>
+</div>
+<div id="contenedor_cierre">
+	<div id="cierre"><p>2015 &copy; Altia</p>	
+ | <a href="/sgc/sc/portada/pie/enlaces/avisoLegal.html" >aviso legal</a>
+	</div>
+</div>
+
+
+</div></div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+	var pageTracker = _gat._getTracker("UA-9703388-1");
+	pageTracker._initData();
+	pageTracker._trackPageview();
+} catch(err) {}
+</script>
+</body>
+
+</html>
