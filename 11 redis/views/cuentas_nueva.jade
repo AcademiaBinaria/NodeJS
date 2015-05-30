@@ -1,0 +1,10 @@
+extends plantilla
+
+block content
+	h1 Crea una cuenta nueva
+	form(action='/api/cuentas' method='post')
+		Enter Nombre y saldo inicial de la cuenta
+			div
+				input(type='text', name='propietario')
+				input(type='number', name='saldo')
+				input(type='submit', value='Crear cuenta')

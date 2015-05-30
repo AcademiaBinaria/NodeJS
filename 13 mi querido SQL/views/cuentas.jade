@@ -1,0 +1,7 @@
+extends plantilla
+
+block content
+	h1 Estas son tus cuentas
+	ul
+		each cuenta in cuentas
+			li #{cuenta.Propietario} tiene el numero #{cuenta.Numero} 
