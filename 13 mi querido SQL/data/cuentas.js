@@ -95,6 +95,18 @@ var Cuentas = (function () {
 		deferred.reject(err);
 	}
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 })();
 
 module.exports = Cuentas;
